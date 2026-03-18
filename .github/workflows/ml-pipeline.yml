@@ -3,7 +3,7 @@ name: ML Model CI
 on:
   push:
     branches-ignore:
-      - 'main' # Runs on all branches EXCEPT main
+      - 'main'
   pull_request:
 
 jobs:
